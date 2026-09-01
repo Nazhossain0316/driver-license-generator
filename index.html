@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PDF417 Test Generator</title>
+
+    <script src="https://unpkg.com/bwip-js/dist/bwip-js-min.js"></script>
+    app.js" defer></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        button {
+            margin-right: 10px;
+            margin-bottom: 10px;
+            padding: 10px 20px;
+        }
+
+        #output {
+            border: 1px solid #ccc;
+            padding: 10px;
+            white-space: pre-wrap;
+            margin-top: 20px;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+
+        canvas {
+            margin-top: 20px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+
+<h2>PDF417 Driver's License Test Data Generator</h2>
+
+<button id="generate">Generate Record</button>
+<button id="copy">Copy Data</button>
+
+<pre id="output"></pre>
+
+<canvas id="barcode"></canvas>
+
+</body>
+</html>
